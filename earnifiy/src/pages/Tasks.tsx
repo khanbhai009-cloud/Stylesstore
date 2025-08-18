@@ -16,8 +16,8 @@ export default function Tasks() {
 		setLoading(true)
 		try {
 			await (window as any).show_9651692('pop')
-			await updateCoins(telegramId, 10)
-			alert('🎉 Congrats! You earned 10 coins.')
+			await updateCoins(telegramId, 500)
+			alert('🎉 Congrats! You earned 500 coins.')
 		} catch (e) {
 			console.error(e)
 		} finally {
@@ -30,8 +30,8 @@ export default function Tasks() {
 		setLoading(true)
 		try {
 			await (window as any).show_9651692()
-			await updateCoins(telegramId, 20)
-			alert('🎉 Congrats! You earned 20 coins.')
+			await updateCoins(telegramId, 500)
+			alert('🎉 Congrats! You earned 500 coins.')
 		} catch (e) {
 			console.error(e)
 		} finally {
